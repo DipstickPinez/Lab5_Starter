@@ -21,10 +21,10 @@ function init() {
 
     const hornType = event.target.value;
 
-    const baseImages = '../assets/images/';
+    const baseImages = 'assets/images/';
     const extSvg = '.svg';
 
-    const baseAudio = '../assets/audio/';
+    const baseAudio = 'assets/audio/';
     const extMp3 = '.mp3';
 
     const imageAltEnd = ' selected';
@@ -51,7 +51,7 @@ function init() {
 
     hornAudio.volume = volumeVal * 0.01;
 
-    const baseIcons = '../assets/icons/';
+    const baseIcons = 'assets/icons/';
     const extSvg = '.svg';
 
     if (volumeVal == 0) {
