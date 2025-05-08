@@ -1,0 +1,12 @@
+1. Why is it important to put thought into your IDs & Classes when it comes to technology intersections? (e.g. how HTML, CSS, and JS intersect)
+   1. You want to ensure that your IDs & classes are robust and allow you to quickly and easily reference your desired elements when modifying their attributes with CSS or JS. Poorly written ID/class names will make it clunky to reference these elements, and that adds unnecessary obstruction to your coding.
+2. What are Data attributes? Why might they be useful? How do you access them? What are the implications of using Data attributes when it comes to things like microdata?
+   1. Data attributes are a way to embed custom data to an HTML element that is private to the page or any applications that use that page. They can be accessed with the .dataset property of an object. The implications of using data attributes when it comes to things like microdata is that data attributes lets us add extra information about an element to the element for reference later.
+3. What is a DOM fragment? Why are they powerful?
+   1. A DOM fragment is a 'minimal document object that has no parent.' They are powerful because you can modify or operate on the fragment before appending or inserting the fragment into the DOM, which is typically a little more efficient.
+4. What is the point of a “Virtual DOM”? What do you gain? What do you lose?
+   1. A "Virtual DOM" is a an in-memory representation of the real DOM. You gain improved performance, and the abstraction it does can add consistency or simplify things, however in exchange you have more overhead and the abstraction can make it harder to debug.
+5. In JavaScript, usually you can reference every attribute of an element with a dot selector followed by the attribute name, except for the class attribute, which is className. Why is this so?
+   1. Class in JavaScript is a reserved keyword, so JavaScript uses className to avoid a naming conflict.
+6. What is the difference between using addEventListener() and something like onClick() ? What are the advantages / disadvantages of both?
+   1. addEventListener() is used in JavaScript, and it offers more control and the ability to have multiple listeners for an event, while onClick() is used in inline JS, is simpler and easier to implement, but you can only have one instance tied to an element.
